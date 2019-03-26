@@ -1,0 +1,33 @@
+POST http://localhost:8080/client
+Content-Type: Application/json
+
+{
+   "name": "Franek",
+   "surname": "kimono"
+}
+
+###
+PUT http://localhost:8080/client
+Content-Type: Application/json
+
+{
+   "id": "5ea15b50-5005-11e9-8647-d663bd873d93",
+   "name": "Franek",
+   "surname": "kimono",
+   "age": 42,
+   "height": 1.78,
+   "weight": 82.3
+}
+
+###
+DELETE http://localhost:8080/client/5ea15b50-5005-11e9-8647-d663bd873d93
+
+###
+GET http://localhost:8080/client/5ea15b50-5005-11e9-8647-d663bd873d93
+
+###
+GET http://localhost:8080/client
+
+###
+
+
